@@ -1,0 +1,47 @@
+* {
+  background-color: darkgrey;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  padding: 0%;
+  margin: 0%;
+}
+
+p, h1 {
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+[class^=box-] {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 600px;
+  box-shadow: rgb(168, 38, 38);
+  background-color: white;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 15px 15px 20px rgb(168, 38, 38);
+}
+
+input {
+  width: 200px;
+  height: 50px;
+  margin: auto;
+}
+
+[class^=row-] {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+input:hover {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=flexbox2.css.map */
